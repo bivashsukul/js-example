@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Primary Meta Tags -->
+        <title>js practice</title>
+        <meta name="title" content="coffee">
+        <meta name="description" content="coffee demo website">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="coffee">
+        <meta property="og:title" content="coffee">
+        <meta property="og:description" content="coffee demo website">
+        <meta property="og:image" content="bivashsukul">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="coffee">
+        <meta property="twitter:title" content="coffee">
+        <meta property="twitter:description" content="coffee demo website">
+        <meta property="twitter:image" content="bivashsukul">
+        
+        <!-- Optional Meta Tags -->
+        <meta name="keywords" content="tuyorial,html,css">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="language" content="english">
+        <meta name="revisit-after" content="1 days">
+        <meta name="author" content="coffee">
+        <!-- pe 7 icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+        <!-- font cdn -->
+        <link rel="stylesheet" href="fontawesome-icon/css/all.min.css">
+        <!-- favicon link-->
+        <link rel="icon" href="images/logo.png">
+        <!-- css links -->
+        <link rel="stylesheet" href="css/bootstrap.css">    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+<div class="container">
+<!-- ex1 -->
+<h2>click the button to show the text</h2>
+<button type="button" class="btn bg-dark text-white" onclick="showText()">show text</button>
+<div id="s_text"class="s_text"></div><hr>
+
+<!-- ex 2 -->
+<h2>click the button to change the html content</h2>
+<button type="button" class="btn btn-secondary" onmouseenter="changeContent()">change content</button>
+<button type="button" class="btn btn-secondary" onmouseenter="hidContent()">Hid content</button>
+<button type="button" class="btn btn-secondary" onmouseenter="openContent()">Show content</button>
+<h5 id="c_content">learn  is fun </h5> <hr>
+
+
+<!-- ex-3 -->
+ Ex-3
+ <h2>click the button to turn on/off the light</h2>
+<button type="button" class="btn btn-primary" onclick="bulbOnO()">turn on</button>
+<button type="button" class="btn btn-warning" onclick="bulbOff()">turn off</button>
+<img id="img" src="images/_bulboff.gif" alt="img"><hr>
+
+<!-- ex-3 -->
+Ex-3
+<h2>On Mouse Over the button to turn on/off the light</h2>
+<button type="button" class="btn btn-primary" onmouseover="bulbOnO1()">turn on</button>
+<button type="button" class="btn btn-warning" onmouseover="bulbOff2()">turn off</button>
+<img id="imge" src="images/_bulboff.gif" alt="img"><hr>
+
+ <!-- EX-4 -->
+
+ <h2>click the button to change the html content</h2>
+<button type="button" class="btn btn-primary" onclick="changContent()">Click Me!</button>
+<h5 id="chang_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquam ad facere quisquam culpa? Excepturi nam fuga numquam quaerat earum ad enim quae eaque aut soluta! Quos dolorum repellat cupiditate totam, quam, hic eius laborum minus quae omnis itaque iusto?</h5> <hr>
+
+
+<!-- ex-5 -->
+
+<h2>click the button show thte date and time</h2>
+<button type="button" class="btn btn-warning" onclick="dateTime()">date&time</button>
+<h3 id="date">Date</h3> <hr>
+<!-- ex6 -->
+<h2>click the button to change the photo</h2>
+<button type="button" class="btn btn-danger" onclick="nature1()">image1</button>
+<button type="button" class="btn btn-danger" onclick="nature2()">image2</button>
+<img id="nature" class="rounded-circle" src="images/img1.jpg" alt="img"> <hr>
+
+<!-- ex7 -->
+<h2>Duble click the button to change the photo</h2>
+<button type="button" class="btn btn-info" ondblclick="nature3()">image1</button>
+<button type="button" class="btn btn-info" ondblclick="nature4()">image2</button>
+<img id="natur" class="rounded-circle" src="images/img1.jpg" alt="img"> <hr>
+
+<!-- ex8 -->
+<h2>On Mouse enter the button to change the photo</h2>
+<button type="button" class="btn btn-secondary" onmouseenter="nature5()">image1</button>
+<button type="button" class="btn btn-secondary" onmouseenter="nature6()">image2</button>
+<img id="natu" class="rounded-circle" src="images/img1.jpg" alt="img"> <hr>
+
+
+<!-- ex9=== -->
+<h2>Click the button to change the color</h2>
+<button type="button" class="btn btn-primary" onmouseover="colorChange()">Color Change</button>
+<button type="button" class="btn btn-primary" onmouseover="bcgChange()">Bcg Change</button>
+<button type="button" class="btn btn-primary" onmouseover="fontChange()">Font Size Change</button>
+<h4 id="colo">Lorem ipsum dolor sit amet.</h4><hr>
+
+
+<!-- ex10-->
+<h2>click the button to show the Result</h2>
+ <button type="button" class="btn btn-secondary" onclick="getResult()">Result</button>
+<h5 id="stat"></h5> <hr>
+
+<!-- 11 -->
+<h2>click the button to show the number</h2>
+<button type="button" class="btn btn-dark" onclick="numberShaw()">show number</button>
+<h5 id="num"></h5> <hr>
+
+<!-- ex12 -->
+<h2>click the button to show the number</h2>
+<button type="button" class="btn btn-primary" onclick="allName()">show number</button>
+<h5 id="alln"></h5>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- script links -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
